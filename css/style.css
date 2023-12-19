@@ -1,0 +1,347 @@
+/* =================================START HEADER=================== */
+ul.menu-name {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+li.menu-li {
+    margin: 0 40px;
+}
+
+li.menu-li-home {
+    margin: 0 40px 0 0;
+}
+
+a.menu-link-active {
+    font-weight: 600;
+    color: #121212;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+a.menu-link {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+
+}
+
+a.menu-link:hover {
+    color: #121212;
+    transition: ease-in-out 0.3s;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    display: none;
+}
+
+/* ================================= END HEADER =================== */
+
+/* ================================= START SECTION-BANNER =================== */
+
+.banner-img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+}
+
+/* =================================END SECTION-BANNER=================== */
+
+/* =================================START SECTION-X2=================== */
+.section-x2 .col-item {
+    -webkit-box-shadow: 0px 0px 79px -11px rgba(189, 194, 227, 1);
+    -moz-box-shadow: 0px 0px 79px -11px rgba(189, 194, 227, 1);
+    box-shadow: 0px 0px 79px -11px rgba(189, 194, 227, 1);
+    transition: all 0.6s ease-in-out;
+
+}
+
+.section-x2 .line {
+    width: 15%;
+    background-color: #121212;
+    border: 2px solid;
+    margin: 12px 0;
+    border-radius: 50px;
+}
+
+.section-x2 .img-wrap {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section-x2 .col-item:hover img {
+    transform: scale(1.1);
+}
+
+.img-x2 {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.img-x2:hover {
+    transform: scale(1.1);
+}
+
+
+/* ================================= END SECTION-X2 =================== */
+
+/* =================================START SECTION-X3 =================== */
+
+.img-x3 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-x3-slider {
+    max-width: 360px;
+    object-fit: cover;
+}
+
+.content-slider.x1 {
+    margin-top: 44px;
+    padding-right: 34px;
+}
+
+.content-slider.x2 {
+    margin-top: 44px;
+}
+
+/* ================================= END SECTION-X3 =================== */
+
+/* =================================START SECTION-X4 =================== */
+.section-x4 .col-content {
+    margin-right: 140px;
+}
+
+.content .x1 {
+    margin-top: 44px;
+}
+
+.img-x4 {
+    position: absolute;
+    width: 50vw;
+    max-width: 50vw;
+    height: 100%;
+    left: -9px;
+    object-fit: cover;
+}
+
+/* =================================END SECTION-X4 =================== */
+
+/* =================================START SECTION-X5 =================== */
+.acc-container {
+    margin-top: 30px;
+}
+
+.acc-div {
+    background-color: #d6d4d4;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.acc-title h4,
+.acc-cont p {
+    margin: 0;
+}
+
+.acc-title {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acc-cont {
+    padding: 20px 0;
+    margin: 0 20px;
+    border-top: 1px solid black;
+}
+
+.acc-cont {
+    display: none;
+}
+
+.acc-div.active .fas {
+    transform: rotate(-180deg);
+}
+
+.acc-div .fas {
+    transition: all 0.3s ease-in-out;
+}
+
+.img-x5 {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ================================= END SECTION-X5 =================== */
+
+/* ================================= START SLIDER =================== */
+.slider-content {
+    margin: 55px 15px;
+}
+
+
+.slider-x2 .slider-item {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 55px 35px;
+    margin: 0 auto;
+}
+.slider-x2 .slider-item > i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 50px;
+    line-height: 1;
+
+}
+
+.slider-x2 .slick-prev:before,
+.slider-x2 .slick-next:before {
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.slider-x2 .slick-prev:before {
+    content: "\f060";
+    font-family: Fontawesome;
+}
+
+.slider-x2 .slick-next:before {
+    content: "\f061";
+    font-family: Fontawesome;
+}
+
+.slider-x2 .slick-prev {
+    left: -20px;
+    z-index: 1;
+}
+
+.slider-x2 .slick-next {
+    right: 20px;
+}
+
+/* ================================= END SLIDER =================== */
+
+
+/* ================================= START SECTION-X6 =================== */
+
+.form-box {
+    margin: auto;
+}
+
+.input-wrap {
+    margin-bottom: 25px;
+}
+
+.textarea-wrap {
+    margin-bottom: 40px;
+}
+
+input.form-input,
+textarea.form-textarea {
+    font-size: 1.6rem;
+    color: #000;
+    width: 100%;
+    background-color: #F7F7F7;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+input.form-input::placeholder,
+textarea.form-textarea::placeholder {
+    color: rgba(0, 0, 0, 0.329);
+    font-weight: 400;
+}
+
+input.form-input {
+    height: 50px;
+    padding: 0 25px;
+}
+
+textarea.form-textarea {
+    padding: 12px 25px;
+    height: 130px;
+}
+
+.img-x6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ================================= END SECTION-X6 =================== */
+/* ================================= START FOOTER =================== */
+.grid-box {
+    margin-left: 102px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 95px;
+    grid-row-gap: 0px;
+    margin-top: 25px;
+}
+
+ul.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+li.menu-li-footer {
+    margin-top: 12px;
+}
+
+a.menu-link-footer {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    transition: ease-in-out 0.3s;
+
+}
+
+a.menu-link-footer:hover {
+    color: #ffffff;
+
+}
+
+/* ================================= END FOOTER =================== */
+
+

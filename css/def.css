@@ -1,0 +1,235 @@
+/* Import Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+/* ===================================== Default CSS === START  */
+html {
+    font-size: 10px;
+    font-family: 'lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+}
+
+p,
+a {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img-wrap {
+    height: 100%;
+}
+
+a {
+    display: inline-flex;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ===================================== Default CSS === END  */
+
+
+
+/* =============================================================== Created Default Class === START  */
+/* ================================= Button -- START */
+a.butn,
+.butn,
+input.butn-submit,
+.butn-submit,
+.form-submit {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 140px;
+    min-height: 50px;
+    padding: 4px 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    /* letter-spacing: 0.3px; */
+    border-radius: 5px;
+    color: #fff;
+    background-color: black;
+    border: 1px solid transparent;
+}
+
+
+
+/* ============= Button Types */
+a.butn-1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+a.butn-1:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+a.butn-2 {
+ min-width: 200px;
+}
+a.butn-2:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+a.butn-3 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+a.butn-3:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+.form-submit {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+
+
+/* ================================= Button -- END*/
+
+
+/* ================================  Background Colors -- START*/
+.bg-e9e7e7 {
+    background-color: #e9e7e7;
+}
+
+.bg-232323 {
+    background-color: #232323;
+}
+
+.bg-c4c4c4 {
+    background-color: #c4c4c4;
+}
+
+
+/* ================================  Background Colors --  END*/
+
+
+
+/* ================================  Colors -- START*/
+.color-ffffffb3 {
+    color: #6314f5;
+}
+
+.color-FFFFFF {
+    color: #FFFFFF;
+}
+
+.color-121212 {
+    color: #121212;
+}
+
+.color-72d5f2 {
+    color: #72d5f2;
+}
+
+.color-273044 {
+    color: #273044;
+}
+
+.color-273044 {
+    color: #273044;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-195cc5 {
+    color: #e5e6e99d;
+}
+
+/* ================================  Colors -- END*/
+
+
+/* ================================  Backgrounds -- START*/
+img.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overly-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* ============================ Overly Types */
+.overly-block.overly-1 {
+    background-color: #273044;
+    opacity: 0.6;
+}
+
+/* ================================  Backgrounds -- END*/
+
+
+
+/* ================================  Sections -- START*/
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.row {
+    max-width: 100%;
+}
+
+/* ================================  Sections -- END*/
+/* =============================================================== Created Default Class === END  */

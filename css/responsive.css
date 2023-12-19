@@ -1,0 +1,224 @@
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 8.07px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .section-banner {
+        text-align: center;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* =================================START HEADER=================== */
+    .site-header .mobile-btn {
+        display: none;
+    }
+
+    header.site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-main {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(10, 9, 9, 0.95);
+        left: 0;
+        top: 0;
+        z-index: 1;
+        padding-top: 50px;
+        display: none;
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    ul.menu-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li.menu-li {
+        margin-left: 0px;
+    }
+
+    a.menu-link-active {
+        color: white;
+        padding: 15px 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    a.menu-link {
+        padding: 15px 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    a.menu-link:hover {
+        color: white;
+        font-weight: 600;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-menu i {
+        color: black;
+    }
+
+    .nav-menu i:hover {
+        color: #4CAF50;
+    }
+
+    .close-menu i {
+        color: white;
+    }
+
+    /* =================================END HEADER=================== */
+
+    /* =================================START SECTION-BANNER=================== */
+    .banner {
+        margin-top: 85px;
+        text-align: center;
+    }
+    .banner br.h2 {
+        display: none; /* Revert back to the default display behavior */
+      }
+
+    .butn-wrap {
+        margin: 25px 0;
+
+    }
+
+    /* =================================END SECTION-BANNER=================== */
+
+    /* ================================= START SECTION-X2=================== */
+    .section-x2 .col-item {
+        margin-top: 20px;
+    }
+
+    /* ================================= END SECTION-X2 =================== */
+
+    /* =================================START TITEL =================== */
+    .titel {
+        margin-bottom: 15px;
+    }
+
+    .img-titel {
+        margin-bottom: 35px;
+    }
+
+    /* ================================= END TITEL =================== */
+
+    /* =================================START SECTION-X3 =================== */
+    .slider-item {
+        text-align: center;
+    }
+
+    /* ================================= END SECTION-X3 =================== */
+
+    /* =================================START SECTION-X4 =================== */
+    .section-x4 .col-content {
+        text-align: center;
+        margin: 0;
+    }
+
+    /* =================================END SECTION-X4 =================== */
+
+    /* =================================START SECTION-X5 =================== */
+    .section-x5 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .section-x5 .col-item {
+        margin: 0 18px;
+    }
+
+    .section-x5 .img-wrap {
+        margin-top: 25px;
+    }
+
+    /* ================================= END SECTION-X5 =================== */
+    
+/* ================================= START SLIDER =================== */
+.slider-x2 .slick-prev:before,
+.slider-x2 .slick-next:before {
+    color: black;
+    font-size: 22px;
+    border: 2px solid black;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+.slider-x2 .slick-prev {
+  left: 5px;
+  z-index: 1;
+}
+
+.slider-x2 .slick-next {
+    right: 30px;
+}
+
+/* ================================= END SLIDER  =================== */
+
+    /* =================================START SECTION-X6 =================== */
+    .section-x6 {
+        text-align: center;
+    }
+
+    .form-submit {
+        margin-bottom: 30px;
+    }
+
+    /* =================================START SECTION-X6 =================== */
+    .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+    /* ================================= START FOOTER =================== */
+    .footer-logo{
+        text-align: center;
+    }
+    .grid-box{
+        margin: auto;
+        margin-top: 25px;
+    }
+    .footer-item{
+        margin: 15px 0;
+    }
+}
